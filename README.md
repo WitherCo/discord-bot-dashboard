@@ -3,16 +3,21 @@
 An open-source dashboard for managing Discord bots. Built with `Node.js`, `Express.js`, `React.js`, and `Discord.js`. Free for anyone to use and contribute to.
 
 ## Features
-- User authentication via Discord OAuth2.
-- Manage bot settings and commands.
-- View server statistics and activity.
-- Role and moderation tools.
+
+- **User Authentication**: Log in via Discord OAuth2.
+- **Bot Settings Management**: Configure bot prefixes, commands, and permissions.
+- **Server Statistics**: View member activity and server insights.
+- **Role and Moderation Tools**: Manage roles, bans, mutes, and kicks.
+- **Command Customization**: Create, edit, and delete bot commands.
+- **Real-Time Monitoring**: See live updates about your bot's activity.
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js installed
-- A Discord bot token
+
+To run this project, you need:
+- [Node.js](https://nodejs.org/) installed
+- A Discord bot token (create one [here](https://discord.com/developers/applications))
 - MongoDB or PostgreSQL for storing data
 
 ### Installation
@@ -21,41 +26,13 @@ An open-source dashboard for managing Discord bots. Built with `Node.js`, `Expre
    ```bash
    git clone https://github.com/WitherCo/discord-bot-dashboard.git
    cd discord-bot-dashboard
-   ```
 
-2. Install dependencies:
-   ```bash
-   cd backend
-   npm install
-   cd ../frontend
-   npm install
-   ```
+## Documentation
 
-3. Set up environment variables:
-   - Create a `.env` file in the `backend` directory with the following:
-     ```
-     DISCORD_TOKEN=your-bot-token
-     CLIENT_ID=your-client-id
-     CLIENT_SECRET=your-client-secret
-     REDIRECT_URI=http://localhost:5000/auth/callback
-     ```
-
-4. Run the backend:
-   ```bash
-   cd backend
-   npm start
-   ```
-
-5. Run the frontend:
-   ```bash
-   cd frontend
-   npm start
-   ```
-
-6. Open `http://localhost:3000` in your browser.
-
-## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Project Wiki**: Dashboard Wiki (Coming Soon)
+- **API Reference**: Detailed reference for API endpoints (Planned)
+- **Setup Guide**: Refer to the [Getting Started](#getting-started) section above.
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
